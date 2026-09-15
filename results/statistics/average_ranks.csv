@@ -1,0 +1,43 @@
+metric,metric_label,k,representation_id,representation_name,average_rank
+local_R,Local R,5,legalbr,LegalBR,3.779866117404737
+local_R,Local R,5,e5_base,E5 Base,4.530895983522142
+local_R,Local R,5,minilm,MiniLM,4.1815139031925845
+local_R,Local R,5,bert_large_pt,BERT Large PT,3.801235839340886
+local_R,Local R,5,qwen3,Qwen3,4.164521112255406
+local_R,Local R,5,bge_m3,BGE-M3,4.012100926879506
+local_R,Local R,5,tfidf,TF-IDF,3.529866117404737
+local_R,Local R,10,legalbr,LegalBR,3.707260556127703
+local_R,Local R,10,e5_base,E5 Base,4.753604531410916
+local_R,Local R,10,minilm,MiniLM,4.192070030895984
+local_R,Local R,10,bert_large_pt,BERT Large PT,3.672245108135942
+local_R,Local R,10,qwen3,Qwen3,4.224768280123584
+local_R,Local R,10,bge_m3,BGE-M3,3.872554067971164
+local_R,Local R,10,tfidf,TF-IDF,3.5774974253347063
+local_R,Local R,20,legalbr,LegalBR,3.6081359423274972
+local_R,Local R,20,e5_base,E5 Base,4.92173017507724
+local_R,Local R,20,minilm,MiniLM,4.2767765190525235
+local_R,Local R,20,bert_large_pt,BERT Large PT,3.4783728115345007
+local_R,Local R,20,qwen3,Qwen3,4.286560247167868
+local_R,Local R,20,bge_m3,BGE-M3,3.691812564366632
+local_R,Local R,20,tfidf,TF-IDF,3.7366117404737382
+absolute_error_days,Absolute error (days),5,legalbr,LegalBR,3.87821833161689
+absolute_error_days,Absolute error (days),5,e5_base,E5 Base,4.288105046343976
+absolute_error_days,Absolute error (days),5,minilm,MiniLM,4.159886714727086
+absolute_error_days,Absolute error (days),5,bert_large_pt,BERT Large PT,3.892893923789907
+absolute_error_days,Absolute error (days),5,qwen3,Qwen3,3.97167868177137
+absolute_error_days,Absolute error (days),5,bge_m3,BGE-M3,3.8735839340885683
+absolute_error_days,Absolute error (days),5,tfidf,TF-IDF,3.935633367662204
+absolute_error_days,Absolute error (days),10,legalbr,LegalBR,3.916580844490216
+absolute_error_days,Absolute error (days),10,e5_base,E5 Base,4.21961894953656
+absolute_error_days,Absolute error (days),10,minilm,MiniLM,4.14778578784758
+absolute_error_days,Absolute error (days),10,bert_large_pt,BERT Large PT,3.98043254376931
+absolute_error_days,Absolute error (days),10,qwen3,Qwen3,3.9461894953656023
+absolute_error_days,Absolute error (days),10,bge_m3,BGE-M3,3.828527291452111
+absolute_error_days,Absolute error (days),10,tfidf,TF-IDF,3.96086508753862
+absolute_error_days,Absolute error (days),20,legalbr,LegalBR,3.850926879505664
+absolute_error_days,Absolute error (days),20,e5_base,E5 Base,4.330072090628218
+absolute_error_days,Absolute error (days),20,minilm,MiniLM,4.176364572605562
+absolute_error_days,Absolute error (days),20,bert_large_pt,BERT Large PT,3.98043254376931
+absolute_error_days,Absolute error (days),20,qwen3,Qwen3,3.949279093717817
+absolute_error_days,Absolute error (days),20,bge_m3,BGE-M3,3.7731719876416068
+absolute_error_days,Absolute error (days),20,tfidf,TF-IDF,3.939752832131823

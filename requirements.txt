@@ -1,0 +1,15 @@
+# Public experiment reproduction
+numpy>=1.26,<3
+pandas>=2.1,<3
+scipy>=1.11,<2
+scikit-learn>=1.3,<2
+statsmodels>=0.14,<1
+matplotlib>=3.8,<4
+jupyterlab>=4,<5
+ipykernel>=6,<7
+
+# Required only for the author-side representation build/regeneration notebook
+torch>=2.1
+transformers>=4.45,<6
+sentence-transformers>=3,<6
+tqdm>=4.66,<5

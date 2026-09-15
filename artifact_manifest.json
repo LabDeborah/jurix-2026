@@ -1,0 +1,107 @@
+{
+  "artifact_schema_version": 1,
+  "target_crime": "simple_theft",
+  "n_decisions": 1942,
+  "row_order_file": "data/decision_metadata.csv",
+  "direct_identifiers_exported": false,
+  "preprocessing_included": false,
+  "tfidf": {
+    "file": "data/representations/tfidf_matrix.npz",
+    "shape": [
+      1942,
+      19404
+    ],
+    "format": "scipy sparse CSR NPZ",
+    "source": "existing experiment TF-IDF matrix"
+  },
+  "dense_representations": {
+    "legalbr": {
+      "display_name": "LegalBR",
+      "checkpoint": "rufimelo/Legal-BERTimbau-sts-large-ma-v3",
+      "shape": [
+        1942,
+        1024
+      ],
+      "dtype": "float32",
+      "source": "existing_experiment_embeddings",
+      "prefix": "",
+      "chunk_config_if_regenerated": null
+    },
+    "e5_base": {
+      "display_name": "E5 Base",
+      "checkpoint": "intfloat/multilingual-e5-base",
+      "shape": [
+        1942,
+        768
+      ],
+      "dtype": "float32",
+      "source": "existing_experiment_embeddings",
+      "prefix": "query: ",
+      "chunk_config_if_regenerated": null
+    },
+    "minilm": {
+      "display_name": "MiniLM",
+      "checkpoint": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "shape": [
+        1942,
+        384
+      ],
+      "dtype": "float32",
+      "source": "existing_experiment_embeddings",
+      "prefix": "",
+      "chunk_config_if_regenerated": null
+    },
+    "bert_large_pt": {
+      "display_name": "BERT Large PT",
+      "checkpoint": "rufimelo/bert-large-portuguese-cased-sts",
+      "shape": [
+        1942,
+        1024
+      ],
+      "dtype": "float32",
+      "source": "existing_experiment_embeddings",
+      "prefix": "",
+      "chunk_config_if_regenerated": null
+    },
+    "qwen3": {
+      "display_name": "Qwen3",
+      "checkpoint": "Qwen/Qwen3-Embedding-0.6B",
+      "shape": [
+        1942,
+        1024
+      ],
+      "dtype": "float32",
+      "source": "existing_experiment_embeddings",
+      "prefix": "",
+      "chunk_config_if_regenerated": null
+    },
+    "bge_m3": {
+      "display_name": "BGE-M3",
+      "checkpoint": "BAAI/bge-m3",
+      "shape": [
+        1942,
+        1024
+      ],
+      "dtype": "float32",
+      "source": "existing_experiment_embeddings",
+      "prefix": "",
+      "chunk_config_if_regenerated": null
+    }
+  },
+  "generation_policy": {
+    "max_chunk_tokens": 450,
+    "overlap_ratio": 0.2222222222222222,
+    "chunk_batch_size": 8,
+    "note": "Existing experiment embeddings are preferred over regeneration."
+  },
+  "environment": {
+    "python": "3.10.18",
+    "platform": "Linux-5.15.0-84-generic-x86_64-with-glibc2.31",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "torch": "2.9.1",
+    "sentence_transformers": "2.7.0",
+    "transformers": "4.57.1"
+  }
+}
